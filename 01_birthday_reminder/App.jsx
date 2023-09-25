@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View, Text, ScrollView } from "react-native";
 import AppFunction from "./_01_functions_solution/AppFunction";
+import AppClass from "./_02_classes_solution/AppClass";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <ScrollView>
         <Text style={styles.globalTitle}>Birthdays Reminder</Text>
         <AppFunction />
+        <AppClass />
       </ScrollView>
       <StatusBar style="auto" />
     </View>
